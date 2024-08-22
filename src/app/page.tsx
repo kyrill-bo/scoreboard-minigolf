@@ -72,14 +72,6 @@ export default function Home() {
           {playerList.length === 0 ? (
             <>
               <h1 className={styles.start_title}>Scoreboard</h1>
-              <Image
-                src="/minigolf.png"
-                alt="Minigolf Landshut"
-                width={300}
-                height={0}
-                priority
-                className={styles.start_image}
-              />
               <button onClick={onOpen} className={styles.start_button}>
                 Starten
               </button>
