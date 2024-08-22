@@ -5,7 +5,11 @@
 const nextConfig = {
     output: 'export',
     basePath: "/scoreboard-minigolf",
-    reactStrictMode: true,
+    images: {
+        loader: "akamai",
+        path: "",
+    },
+    assetPrefix: "./",
 };
 
 export default nextConfig;
