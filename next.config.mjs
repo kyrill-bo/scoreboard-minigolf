@@ -5,9 +5,7 @@
 const nextConfig = {
     output: 'export',
     basePath: "/scoreboard-minigolf",
-    images: {
-        unoptimized: true,
-    },
+    reactStrictMode: true,
 };
 
 export default nextConfig;
